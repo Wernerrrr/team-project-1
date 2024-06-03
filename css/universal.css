@@ -5,7 +5,6 @@
   --light-gray: #d9d9d9;
   --light-blue: #f7faff;
   --white: #ffffff;
-  --primary-font: 'Roboto', sans-serif;
 }
 
 * {
@@ -34,7 +33,6 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--grey);
 }
 
 button {
@@ -46,7 +44,7 @@ button {
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1440px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
