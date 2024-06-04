@@ -1,0 +1,91 @@
+.footer{
+    background-color: var(--blue);
+    position: relative;  
+}
+
+.footer .container{
+    height: 262px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__left svg{
+    width: 127px;
+    fill: var(--white);
+    height: 16px;
+    margin-bottom: 39px;
+}
+
+.footer__left{
+    color: var(--white);
+    font-size: 19px;
+    line-height: 22.27px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 48px;
+    margin-left: 60px;
+}
+
+.footer__left__address{
+    margin-bottom: 24px;
+}
+
+.footer__right{
+    margin-top: 44px;
+    margin-left: 87px;
+}
+
+.footer__right ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--white);
+    margin-left: 9px;
+}
+
+.footer__contact{
+    font-size: 19px;
+    line-height: 22.27px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--white);
+    margin-top: 24px;
+    display: flex;
+    gap: 82px;
+}
+
+.footer__contact__phone{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__agreement{
+    position: absolute;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.1875px;
+    text-align: left;
+    color: #5c6c86;   /*In figma culoarea apare alb si am incercat sa gasesc eu una cat de cat apropiata */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 36px;
+}
+
+.footer__agreement a{
+    text-decoration: underline;
+}
+
+.footer__socials svg{
+    width: 40px;
+    height: 40px;
+}
+
+.footer__socials{
+    display: flex;
+    gap: 30px;
+    margin-top: 36px;
+    margin-left: 290px;
+}
