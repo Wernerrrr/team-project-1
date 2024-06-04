@@ -14,11 +14,16 @@ html {
     padding: 0 60px;
 }
 
+.header__logo svg{
+    width: 127px;
+    height: 16px;
+}
+
 .header__navigation ul{
     display: flex;
     flex-direction: row;
     gap: 30px;
     color: var(--blue);
-font-size: 18px;
-line-height: 27px;
+    font-size: 18px;
+    line-height: 27px;
 }
