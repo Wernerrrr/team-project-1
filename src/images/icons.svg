@@ -24,5 +24,8 @@
 <path d="M165.759 31.965l14.395-31.965h11.042l14.396 31.965h-7.78l-3.040-6.751h-18.195l-3.040 6.751h-7.779zM179.171 19.402h13.010l-6.214-13.814h-0.581l-6.214 13.814z"></path>
 <path d="M209.623 31.965v-31.965h7.153v26.153h23.381v5.812h-30.534z"></path>
 </symbol>
+<symbol id="icon-Vector-5" viewBox="0 0 44 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6" d="M39.333 5l-23.833 23.833-10.833-10.833"></path>
+</symbol>
 </defs>
 </svg>
