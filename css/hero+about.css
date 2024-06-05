@@ -3,11 +3,10 @@
     width: 1320px;
 height: 530px;
 top: 159px;
-background-image: url(../images/hero.img2.jpg);
 background-repeat: no-repeat;
 background-size: 648px 530px;
 background-position: 50% 50%;
-margin-top: 64px;
+margin-top: 94px;
 margin-left: 60px;
 margin-right: 60px;
 position: relative;
@@ -22,6 +21,9 @@ position: relative;
     text-align: left;
     text-transform: uppercase;
     align-items: left;
+    position: absolute;
+    top: -200px;
+   
  
 
 }
@@ -31,18 +33,30 @@ position: relative;
 
 
 .hero-section__images{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     position: relative;
+
 
 }
 
 .img1 {
-    padding-top: 17px;
+    
     padding-left: 0;
+    padding-bottom: 0;
     width: 310px;
 height: 329px;
 
+}
+
+.img2 {
+  
+    width: 648px;
+    position: absolute;
+    bottom: 0px;
+    left: 330px;
+    z-index: -100;
 
 
 
@@ -52,10 +66,11 @@ height: 329px;
 .img3 {
     padding-left: 698px;
     padding-bottom: 0px;
-    width: 312px;
 height: 337px;
 position: absolute;
-top: -186px;
+top: -200px;
+left: 300px;
+
 
 
 }
@@ -63,7 +78,7 @@ top: -186px;
 .hero-section__div {
     position: absolute;
     left: 1000px;
-    top: 390px;
+    top: 225px;
     
 }
 
