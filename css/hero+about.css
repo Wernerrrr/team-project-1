@@ -6,7 +6,7 @@ top: 159px;
 background-repeat: no-repeat;
 background-size: 648px 530px;
 background-position: 50% 50%;
-margin-top: 94px;
+margin-top: 110px;
 margin-left: 60px;
 margin-right: 60px;
 position: relative;
@@ -119,18 +119,18 @@ left: 300px;
     display: flex;
     width: 1320px;
     height: 540px;
-margin-top: 100px;
+margin-top: 0;
 margin-bottom: 100px;
 }
 
 .about-us__section {
- margin-top: 100px;
+ margin-top: 120px;
     margin-right: 24px;
     margin-left: 60px;
     margin-bottom: 119px;
       background-color: #F7FAFF;
     width: 760px;
-height: 500px;
+height: 450px;
 padding: 36px 69px 37px 69px;
 
 }
