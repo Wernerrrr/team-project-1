@@ -63,29 +63,26 @@
 }
 
 .hero-section__text {
-    font-family: Roboto;
     font-size: 18px;
-    font-weight: 400;
     line-height: 27px;
     text-align: left;
     padding-bottom: 30px;
+    color: var(--blue);
 }
 
 .hero-section__btn {
-    font-family: Roboto;
     font-size: 18px;
-    font-weight: 400;
     line-height: 24px;
-    text-align: left;
     width: 224px;
     height: 50px;
     padding: 17px 65px 17px 65px;
     gap: 6px;
-    opacity: 0px;
     color: white;
     background-color: #0A224A;
-    cursor: pointer;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-us {
@@ -100,56 +97,55 @@
 }
 
 .about-us__section {
- margin-top: 120px;
+    margin-top: 120px;
     margin-right: 24px;
     margin-left: 60px;
     margin-bottom: 119px;
-      background-color: #F7FAFF;
+    background-color: #F7FAFF;
     width: 760px;
-height: 450px;
-padding: 36px 69px 37px 69px;
-
+    height: 450px;
+    padding-top: 36px;
 }
 
 .about-us__section-title4 {
     font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-
-
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--blue);
 }
 
 .about-us__section-title4::before {
-
-        content: '';
-        width: 30px;
-        height: 1px;
-        background-color: #0A224A;
-        display: inline-block;
-        margin-right: 20px;
-        vertical-align: middle;
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #0A224A;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
       
 }
 
 .about-us__section-title2 {
     font-family: Roboto;
-font-size: 32px;
-font-weight: 400;
-line-height: 45px;
-text-align: left;
-text-transform: uppercase;
-margin-top: 30px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: var(--blue);
 }
 
 .about-us__section-text {
     font-family: Roboto;
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-text-align: left;
-
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: var(--blue);
+    margin-top: 30px;
 }
 
 .statistics__list {
@@ -162,54 +158,48 @@ text-align: left;
 
 .statistics__item {
     width: 170px;
-height: 173px;
-gap: 0px;
-opacity: 0px;
-margin-top: 10px;
-margin-bottom: 30px;
-margin-right: 50px;
-
+    height: 173px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 50px;
 }
 
 
 .statistics__value {
     font-family: Roboto;
-font-size: 50px;
-font-weight: 400;
-line-height: 75px;
-text-align: center;
-color: #0A224A;
-margin-top: 30px;
-width: 170px;
-height: 69px;
-gap: 0px;
-opacity: 0px;
-
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    text-align: center;
+    color: #0A224A;
+    margin-top: 30px;
+    width: 170px;
+    height: 69px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .statistics__description {
     font-family: Roboto;
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-text-align: center;
-margin-top: 23px;
-width: 170px;
-height: 81px;
-top: 92px;
-gap: 0px;
-opacity: 0px;
-
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 23px;
+    width: 170px;
+    height: 81px;
+    top: 92px;
+    gap: 0px;
+    opacity: 0px;
+    color: var(--blue);
 }
 
 
 .about-us__img {
 width: 536px;
 height: 540px;
-top: 789px;
-left: 844px;
-gap: 0px;
-opacity: 0px;
 margin-bottom: 100px;
 margin-top:100px;
 }
