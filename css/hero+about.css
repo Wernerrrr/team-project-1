@@ -1,16 +1,15 @@
 
 .hero-section {
     width: 1320px;
-height: 530px;
-top: 159px;
-background-repeat: no-repeat;
-background-size: 648px 530px;
-background-position: 50% 50%;
-margin-top: 110px;
-margin-left: 60px;
-margin-right: 60px;
-position: relative;
-
+    height: 530px;
+    top: 159px;
+    background-repeat: no-repeat;
+    background-size: 648px 530px;
+    background-position: 50% 50%;
+    margin-top: 110px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .hero-section__title{
@@ -23,22 +22,13 @@ position: relative;
     align-items: left;
     position: absolute;
     top: -200px;
-   
- 
-
 }
-
-
-
-
 
 .hero-section__images{
     display: flex;
     flex-direction: row;
     align-items: center;
     position: relative;
-
-
 }
 
 .img1 {
@@ -46,40 +36,30 @@ position: relative;
     padding-left: 0;
     padding-bottom: 0;
     width: 310px;
-height: 329px;
-
+    height: 329px;
 }
 
 .img2 {
-  
     width: 648px;
     position: absolute;
     bottom: 0px;
     left: 330px;
     z-index: -100;
-
-
-
 }
-
 
 .img3 {
     padding-left: 698px;
     padding-bottom: 0px;
-height: 337px;
-position: absolute;
-top: -200px;
-left: 300px;
-
-
-
+    height: 337px;
+    position: absolute;
+    top: -200px;
+    left: 300px;
 }
 
 .hero-section__div {
     position: absolute;
     left: 1000px;
-    top: 225px;
-    
+    top: 195px;
 }
 
 .hero-section__text {
@@ -88,10 +68,7 @@ left: 300px;
     font-weight: 400;
     line-height: 27px;
     text-align: left;
-   
-  
-
-
+    padding-bottom: 30px;
 }
 
 .hero-section__btn {
@@ -102,8 +79,6 @@ left: 300px;
     text-align: left;
     width: 224px;
     height: 50px;
-    top: 639px;
-    left: 1068px;
     padding: 17px 65px 17px 65px;
     gap: 6px;
     opacity: 0px;
@@ -111,16 +86,17 @@ left: 300px;
     background-color: #0A224A;
     cursor: pointer;
     border: none;
-
-
 }
 
 .about-us {
     display: flex;
     width: 1320px;
     height: 540px;
-margin-top: 0;
-margin-bottom: 100px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .about-us__section {
